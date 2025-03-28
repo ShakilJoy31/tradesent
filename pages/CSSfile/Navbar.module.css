@@ -1,0 +1,52 @@
+
+
+.element{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.element:hover{
+    box-shadow: 2px 2px 15px 5px black;
+    transition-duration: 200ms;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.cancel:hover{
+    box-shadow: 2px 2px 15px 5px lightblue;
+    transition-duration: 200ms;
+}
+.team_card{
+    box-shadow: 2px 2px 15px 5px white;
+    transition-duration: 200ms;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.team_card:hover{
+    box-shadow: 2px 2px 15px 5px black;
+    background-color: white;
+    color: black;
+    transition-duration: 200ms;
+}
+
+.gaping {
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+@media (min-width: 769px) and (max-width: 1281px) {
+    .gaping {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .gaping {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+}
